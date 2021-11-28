@@ -15,7 +15,7 @@ function Home() {
 
   const loadData = () => {
     axios
-    .get("http://ergast.com/api/f1/current/last/results.json")
+    .get("https://ergast.com/api/f1/current/last/results.json")
     .then((res) => {
         // setLastRaceResult(res.data);
         let colocacoes = []

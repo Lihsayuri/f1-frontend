@@ -18,7 +18,7 @@ function DriverStandings() {
 
   const loadData = () => {
     axios
-    .get("http://ergast.com/api/f1/current/driverStandings.json")
+    .get("https://ergast.com/api/f1/current/driverStandings.json")
     .then((res) => {
       let posicoes = [];
       let pilotos = [];

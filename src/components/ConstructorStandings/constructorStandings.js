@@ -15,7 +15,7 @@ function ConstructorStandings() {
   
     const loadData = () => {
       axios
-      .get("http://ergast.com/api/f1/current/constructorStandings.json")
+      .get("https://ergast.com/api/f1/current/constructorStandings.json")
       .then((res) => {
         let vitorias = []
         let posicoes = [];
