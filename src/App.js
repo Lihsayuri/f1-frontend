@@ -23,6 +23,7 @@ function App() {
   return (
     <Router>
       <main>
+      <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"/> 
         <Menu />
         <Routes>
           <Route path='/' exact element={<Home />} />                
