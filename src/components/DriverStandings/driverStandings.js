@@ -7,8 +7,6 @@ import './driverStandings.css'
 
 function DriverStandings() {
   // const { JSDOM } = require("jsdom")
-  const ReactJSDOM = require('react-jsdom');
-
   const [positions, setPositions] = useState([]);
   const [drivers, setDrivers] = useState([]);
   const [nationalities, setNationalities] = useState([]);
