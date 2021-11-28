@@ -58,12 +58,12 @@ function TeamPage(){
                     <h1 className="fonte-titulo">Drivers:</h1>
                     <div className="drivers">
                         <div className="driver-info">
-                            <img src={driver1.imageURL}></img>
+                            <img className="img-driver" src={driver1.imageURL}></img>
                             <h2 className="fonte-subtitulo">{driver1.name}</h2>
                             <p className="fonte">{driver1.number}</p>
                         </div>
                         <div className="driver-info">
-                            <img src={driver2.imageURL}></img>
+                            <img className="img-driver" src={driver2.imageURL}></img>
                             <h2 className="fonte-subtitulo">{driver2.name}</h2>
                             <p className="fonte">{driver2.number}</p>
                         </div>

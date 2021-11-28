@@ -21,6 +21,10 @@
     flex-direction: row;
 }
 
+.img-driver{
+    width: 75%;
+}
+
 .drivers-holder{
 
 }
@@ -30,7 +34,7 @@
 .stats{
     display: flex;
     flex-direction: row;
-    width: 30%;
+    width: 35%;
     justify-content: start;
     margin-right: 3%;
 }
@@ -38,17 +42,27 @@
 
 
 .driver-info, .stats-keys, .stats-values{
-    margin-right: 2rem ;
+    /* margin-right: 2rem ; */
     padding: 0.25%;
     white-space: nowrap;
+}
 
+.stats-keys{
+    margin-right: 2vw;
+}
+
+.fonte{
+    font-family: F1Regular;
+    font-size: 1vw;
 }
 
 .fonte-titulo {
     font-family: F1Regular;
     margin-top: 0;
+    font-size: 2vw;
 }
 
 .fonte-subtitulo {
     font-family: F1Regular;
+    font-size: 1.5vw;
 }
