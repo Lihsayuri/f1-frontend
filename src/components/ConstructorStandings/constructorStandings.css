@@ -1,0 +1,70 @@
+.body{
+    display: flex;
+    justify-content: center;
+}
+
+.greyBox{
+    position: absolute;
+    color: white;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 270px;
+    background: url(https://www.formula1.com/etc/designs/fom-website/images/homepage/standings/bg.jpg);
+    background-size: cover;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.columnsConstructor{
+    margin-right:2rem;
+    padding: 0.25rem;
+    white-space: nowrap;
+    width: 500px;
+}
+
+.columnsImg{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    margin-left: 2rem;
+    margin-top: 7rem;
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    border-radius: 5%;
+}
+
+
+.rowImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+img{
+    border-radius: 5%;
+}
+
+.tableConstrucStandings{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 350px;
+    width: 500px;
+    margin: 0; 
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+  }
+
+  .fonte{
+    font-family: F1Regular;
+    font-size: 1rem;
+}

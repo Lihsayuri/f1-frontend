@@ -1,0 +1,54 @@
+.team-page{
+
+}
+
+.team-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.team-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding-bottom: 3rem;
+}
+
+.drivers {
+    display: flex;
+    flex-direction: row;
+}
+
+.drivers-holder{
+
+}
+
+
+
+.stats{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: start;
+    margin-right: 3%;
+}
+
+
+
+.driver-info, .stats-keys, .stats-values{
+    margin-right: 2rem ;
+    padding: 0.25%;
+    white-space: nowrap;
+
+}
+
+.fonte-titulo {
+    font-family: F1Regular;
+    margin-top: 0;
+}
+
+.fonte-subtitulo {
+    font-family: F1Regular;
+}

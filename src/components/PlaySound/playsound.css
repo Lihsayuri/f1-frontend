@@ -1,0 +1,13 @@
+.play {
+    border-top: 10px solid #e10600;
+    border-bottom: 10px solid #e10600;
+    border-left: 20px solid black;
+    height: 0px;
+  }
+
+.play-div {
+  position: absolute;
+  right: 5vw;
+  top: 1.4vw;
+  z-index: 1000;
+}

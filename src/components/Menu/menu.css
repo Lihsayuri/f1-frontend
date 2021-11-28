@@ -1,0 +1,161 @@
+.menu-holder{
+  display: flex;
+  flex-direction: column;
+  height: 8vw;
+}
+
+.header {
+  height: 4vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #e10600;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  z-index: 101;
+}
+  
+.header .links-box {
+  display: flex;
+}
+
+.f1Logo {
+  margin-left: 1rem;
+  height: 50%;
+}
+
+.links-box{
+  position: absolute;
+  height: 100%;
+  width: 70%;
+  justify-content: space-evenly;
+  left: 15%;
+}
+
+Button{
+  font-family: F1Regular;
+}
+
+.teams-div {
+  padding-left: 21%;
+  padding-right: 21%;
+  display: none;
+  background-color: black;
+  z-index: 10;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 4vw;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 12%;
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  font-family: F1Regular;
+
+}
+
+.link:hover{
+  background-color: black;
+}
+
+.teams-button{
+  font-size: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 12%;
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+}
+
+.teams-button:hover{
+  background-color: black;
+}
+
+.teams-button:hover + .teams-div{
+  display: none;
+}
+
+.teams-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 10vw;
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  border-bottom-right-radius: 10%;
+  font-family: F1Regular;
+}
+
+.teams-link:hover{
+  background-color: #e10600;
+}
+
+.subnav {
+    float: left;
+    overflow: hidden;
+}
+  
+.subnav .subnavbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.header Link:hover, .subnav:hover .subnavbtn {
+    background-color: rgb(0, 0, 0);
+}
+
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    z-index: 1;
+}
+
+.subnav-content Link {
+    float: left;
+    color: white;
+    text-decoration: none;
+}
+
+.subnav-content a:hover {
+    background-color: rgb(5, 5, 5);
+    color: rgb(255, 255, 255);
+}
+
+.subnav:hover .subnav-content {
+    display: block;
+}
