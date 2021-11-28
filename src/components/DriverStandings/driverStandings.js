@@ -53,7 +53,7 @@ function DriverStandings() {
 
   const f1Images = () => {
     axios
-    .get("http://127.0.0.1:8000/driver-standings")
+    .get("https://mysterious-refuge-74126.herokuapp.com/driver-standings")
     .then((response) =>{
       setFirstPlaceSrc(response.data['First'])
       setSecondPlaceSrc(response.data['Second'])

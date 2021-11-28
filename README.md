@@ -9,6 +9,7 @@ npm install react-router-dom
 npm install @mui/icons-material
 npm install @emotion/react
 
+https://damp-ridge-93900.herokuapp.com/ | https://git.heroku.com/damp-ridge-93900.git
 
 Cronograma:  
 1° Semana: criar o site com todad as as funcionalidades fáceis (4 páginas e suas funções) -[]  

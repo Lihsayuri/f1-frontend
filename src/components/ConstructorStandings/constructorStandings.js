@@ -45,7 +45,7 @@ function ConstructorStandings() {
 
     const f1Images = () => {
       axios
-      .get("http://127.0.0.1:8000/constructor-standings")
+      .get("https://mysterious-refuge-74126.herokuapp.com/constructor-standings")
       .then((response) =>{
         setFirstPlaceSrc(response.data['First'])
         setSecondPlaceSrc(response.data['Second'])

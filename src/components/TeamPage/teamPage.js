@@ -18,7 +18,7 @@ function TeamPage(){
 
     const loadData = () => {
         axios
-        .get(`http://127.0.0.1:8000/teams/${teamId}`)
+        .get(`https://mysterious-refuge-74126.herokuapp.com/teams/${teamId}`)
         .then((response) => {
             setDriver1(response.data.drivers.driver0)
             setDriver2(response.data.drivers.driver1)
