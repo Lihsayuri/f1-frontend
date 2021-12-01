@@ -50,3 +50,6 @@ https://user-images.githubusercontent.com/62647438/143788188-f593941b-fdf8-4415-
 # Cronograma da realização do projeto:  
 1° Semana: criar o site com todad as as funcionalidades fáceis (4 páginas e suas funções) -[OK]  
 2° Semana: Web scrapper, realizar deploy inicial da aplicação e fazer css -[OK]  
+
+# Diagrama de Arquitetura
+O diagrama de arquitetura se encontra na imagem "F1Correto.png"
