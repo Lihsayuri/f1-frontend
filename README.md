@@ -48,8 +48,8 @@ https://user-images.githubusercontent.com/62647438/143788188-f593941b-fdf8-4415-
 
 
 # Cronograma da realização do projeto:  
-1° Semana: criar o site com todad as as funcionalidades fáceis (4 páginas e suas funções) -[OK]  
-2° Semana: Web scrapper, realizar deploy inicial da aplicação e fazer css -[OK]  
+1° Semana: criar o site com todas as as funcionalidades fáceis (4 páginas: Home, Driver Standings, Constructor Standings e Teams e suas funções) -[OK]  
+2° Semana: fazer o Web scrapper (para pegar imagens e informações relevantes do site da fórmula 1), realizar deploy inicial da aplicação e caprichar no css -[OK]  
 
 # Diagrama de Arquitetura
 O diagrama de arquitetura se encontra na imagem "F1Correto.png"
